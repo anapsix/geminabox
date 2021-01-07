@@ -5,6 +5,8 @@ configured to proxy from RubyGems.org.
 
 ## Usage
 
+> Public image is published at `ghcr.io/anapsix/geminabox`
+
 ### Build
 
 ```sh
