@@ -24,6 +24,8 @@ jobs:
           context: .
           file: ./Dockerfile
           load: true
+          build-args: |
+            BUILDKIT_INLINE_CACHE=1
           tags: ghcr.io/anapsix/geminabox:latest
       - name: Push image
         run: docker push ghcr.io/anapsix/geminabox:latest
